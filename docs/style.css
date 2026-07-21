@@ -1,11 +1,10 @@
 :root {
-    --var-primary: #007EA8;
-    --var-primary-dark: #00527C;
-    --var-secondary: #7bc2ea;
-    --var-dark: #313131;
-    --var-light: #ececec;
+    --var-primary: #fb1c1f;
+    --var-primary-dark: #fb1c1f;
+    --var-secondary: #fff435;
+    --var-dark: #241f20;
+    --var-light: #ffffff;
 }
-
 .wy-side-nav-search {
     background-color: var(--var-primary-dark);
 }
