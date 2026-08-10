@@ -35,7 +35,8 @@ The **Blocksy theme** provides a user-friendly WordPress **Theme Customizer**, a
 
 ## Customizer Sections
 
-Here we have all the theme settings 
+Here we have all the theme settings:
+
 ![Theme Settings](img/theme-settings.png)
 
 
