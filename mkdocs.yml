@@ -1,10 +1,11 @@
 site_name: Taystee's Burgers
 nav:
   - Theme Settings: index.md
-  - Header & Footer Scripts: header-footer.md
+  # - Header & Footer Scripts: header-footer.md
   - Menu: menu.md
   - Form: form.md
   - WP Blocks: custom-sections.md
+  - Useful links: useful-links.md
 theme: readthedocs
 extra_css:
   - style.css

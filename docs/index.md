@@ -5,12 +5,15 @@
 * Parent theme: Blocksy 2.1.49
 * Child theme: blocksy-child (Taystee's Burgers - Coalition Technologies Theme)
 * Blocks: Stackable - Gutenberg Blocks
+* Forms: Gravity Forms (with reCAPTCHA add-on)
+* SEO: Yoast SEO
 
 ## Custom Sections and Pages 
-* [Header & Footer Scripts](header-footer/)
+<!-- * [Header & Footer Scripts](header-footer/) -->
 * [Menu](menu/)
 * [Form](form/)
 * [Wp Blocks](custom-sections/)
+* [Useful links](useful-links.md) - official documentation and support for plugins used
 
 
 ## Blocksy Theme Customizer Guide

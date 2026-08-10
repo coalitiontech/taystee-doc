@@ -1,4 +1,4 @@
-# Forms — Create, Add in pages
+# Forms - Create, Add in pages
 
 ## 1. Create a Form
 1. WP admin → Forms → New Form. Give it a title and description.

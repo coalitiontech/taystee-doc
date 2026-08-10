@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
       <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>Project - CT</title>
+    <title>Taystee's Burgers</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,7 +13,7 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "General";
+        var mkdocs_page_name = "Theme Settings";
         var mkdocs_page_input_path = "index.md";
         var mkdocs_page_url = null;
       </script>
@@ -31,7 +31,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="." class="icon icon-home"> Project - CT
+          <a href="." class="icon icon-home"> Taystee's Burgers
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -41,41 +41,45 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">General</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Theme Settings</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#developers-info">Developers info</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-pages-designed">Project pages designed</a>
+    <li class="toctree-l2"><a class="reference internal" href="#custom-sections-and-pages">Custom Sections and Pages</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#page-builder">Page Builder</a>
+    <li class="toctree-l2"><a class="reference internal" href="#blocksy-theme-customizer-guide">Blocksy Theme Customizer Guide</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#custom-widgets">Custom Widgets</a>
+    <li class="toctree-l2"><a class="reference internal" href="#accessing-the-theme-customizer">Accessing the Theme Customizer</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#customizer-sections">Customizer Sections</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#site-identity">Site Identity</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#colors-typography">Colors &amp; Typography</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#header-options">Header Options</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#blog-archive">Blog / Archive</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#footer-options">Footer Options</a>
     </li>
     </ul>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="home/">Home</a>
+                <li class="toctree-l1"><a class="reference internal" href="menu/">Menu</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="category/">Category</a>
+                <li class="toctree-l1"><a class="reference internal" href="form/">Form</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="product/">Product</a>
+                <li class="toctree-l1"><a class="reference internal" href="custom-sections/">WP Blocks</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="static/">Static</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="menu/">Mega Menu</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="other/">Other</a>
+                <li class="toctree-l1"><a class="reference internal" href="useful-links/">Useful links</a>
                 </li>
               </ul>
       </div>
@@ -85,14 +89,14 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href=".">Project - CT</a>
+          <a href=".">Taystee's Burgers</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">General</li>
+      <li class="breadcrumb-item active">Theme Settings</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -101,40 +105,80 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="welcome-to-project-theme-by-coalition-technologies-documentation">Welcome to PROJECT theme by Coalition Technologies documentation</h1>
+                <h1 id="welcome-to-taystees-burgers-theme-by-coalition-technologies-documentation">Welcome to Taystee's Burgers theme by Coalition Technologies documentation</h1>
 <h2 id="developers-info">Developers info</h2>
 <ul>
-<li>Base theme: Cornerstone 6.14.0</li>
-<li>Node: 18.15.0</li>
-<li>Command: stencil start</li>
+<li>Parent theme: Blocksy 2.1.49</li>
+<li>Child theme: blocksy-child (Taystee's Burgers - Coalition Technologies Theme)</li>
+<li>Blocks: Stackable - Gutenberg Blocks</li>
+<li>Forms: Gravity Forms (with reCAPTCHA add-on)</li>
+<li>SEO: Yoast SEO</li>
 </ul>
-<h2 id="project-pages-designed">Project pages designed</h2>
+<h2 id="custom-sections-and-pages">Custom Sections and Pages</h2>
+<!-- * [Header & Footer Scripts](header-footer/) -->
 <ul>
-<li><a href="home/">Homepage</a></li>
-<li><a href="category/">Category Page</a></li>
-<li><a href="product/">Product Page</a></li>
-<li><a href="static/">Static Page</a></li>
-<li><a href="menu/">Mega Menu</a></li>
+<li><a href="menu/">Menu</a></li>
+<li><a href="form/">Form</a></li>
+<li><a href="custom-sections/">Wp Blocks</a></li>
+<li><a href="useful-links/">Useful links</a> - official documentation and support for plugins used</li>
 </ul>
-<h2 id="page-builder">Page Builder</h2>
-<p>Page Builder allows you to customize the different style elements of your theme, like colors, text sizes, the number of featured products to show on the homepage, and more. You can use this to tailor your storefront so it more closely reflects your brand.</p>
-<p>In addition, you can drag and drop content onto pages, like text blocks, images, videos, banners, carousels, buttons, and blocks of custom HTML. This enables you to showcase your products in a way that is visually rich.</p>
-<p>To access Page Builder go to Storefront › Themes › Customize to launch Page Builder. You can also read more about the Page builder in this <a href="https://support.bigcommerce.com/s/article/Page-Builder?language=en_US#using" target="_blank">documentation</a>.</p>
-<p><img alt="page-builder.png" src="img/page-builder.png" /></p>
-<p>Whenever we need to edit the site, we need to be in 'Design' mode. And whenever we need to test the site, we need to be in 'Preview' mode. You can also test on different screen sizes by clicking on the icons at the top of the Page Builder.</p>
-<p><img alt="design-preview.png" src="img/design-preview.png" /></p>
-<p>While editing the widgets in Design mode, sometimes they seem to break, but this is because the scripts stop running. If this happens, you can fix it by clicking on 'Save' in the top right corner of the Page Builder.</p>
-<p>After clicking on 'Save', you can click on 'Preview' to see the changes in action. If you want to see the changes on the live site, you need to click on 'Publish'.</p>
-<p><img alt="discard-publish.png" src="img/discard-publish.png" /></p>
-<h2 id="custom-widgets">Custom Widgets</h2>
-<p>Custom widgets are developed by Coalition Technologies according to the mockups.</p>
-<p>They can be used in the Page Builder. You can find them in the Page Builder under the Custom Widgets section.
-<img alt="custom-widgets.png" src="img/custom-widgets.png" /></p>
+<h2 id="blocksy-theme-customizer-guide">Blocksy Theme Customizer Guide</h2>
+<p>The <strong>Blocksy theme</strong> provides a user-friendly WordPress <strong>Theme Customizer</strong>, allowing you to adjust the appearance and layout of your site in real time. This guide walks through all the main options and best practices.</p>
+<hr />
+<h2 id="accessing-the-theme-customizer">Accessing the Theme Customizer</h2>
+<ol>
+<li>Log in to your WordPress dashboard.</li>
+<li>Navigate to <strong>Appearance → Customize</strong>.
+<img alt="Customizer" src="img/customizer.png" /></li>
+<li>The Customizer panel will open on the left, with a live preview on the right.</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> Changes are not visible on your site until you click <strong>Publish</strong>.</p>
+</blockquote>
+<hr />
+<h2 id="customizer-sections">Customizer Sections</h2>
+<p>Here we have all the theme settings 
+<img alt="Theme Settings" src="img/theme-settings.png" /></p>
+<h2 id="site-identity">Site Identity</h2>
+<ul>
+<li><strong>Site Title:</strong> Update your site’s name.  </li>
+<li><strong>Tagline:</strong> Add a short description for your site.  </li>
+<li><strong>Logo:</strong> Upload your logo image (recommended size: 200x60px).  </li>
+<li><strong>Site Icon / Favicon:</strong> Upload a 512x512px icon that appears in browser tabs.  </li>
+</ul>
+<hr />
+<h2 id="colors-typography">Colors &amp; Typography</h2>
+<ul>
+<li><strong>Primary &amp; Secondary Colors:</strong> Customize theme accent colors.  </li>
+<li><strong>Background Color:</strong> Set the site background color.  </li>
+<li><strong>Font Family &amp; Size:</strong> Choose fonts for headings, body, and menus.  </li>
+<li><strong>Link Colors:</strong> Change link hover and active colors.  </li>
+</ul>
+<hr />
+<h2 id="header-options">Header Options</h2>
+<ul>
+<li><strong>Header Settings:</strong> Align menus and adjust spacing.</li>
+<li><strong>Sticky Header:</strong> Enable a header that stays visible on scroll.  </li>
+</ul>
+<hr />
+<h2 id="blog-archive">Blog / Archive</h2>
+<ul>
+<li><strong>Layout Options:</strong> Grid, list, or full-width blog layouts.  </li>
+<li><strong>Excerpt Length:</strong> Control the number of words displayed per post.  </li>
+<li><strong>Featured Image Display:</strong> Show or hide thumbnails on the blog page.  </li>
+</ul>
+<hr />
+<h2 id="footer-options">Footer Options</h2>
+<ul>
+<li><strong>Footer Layout:</strong> One, two, or three-column layout.  </li>
+<li><strong>Copyright Text:</strong> Customize the copyright message.  </li>
+<li><strong>Footer Widgets:</strong> Enable or disable widget areas.  </li>
+</ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="home/" class="btn btn-neutral float-right" title="Home">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="menu/" class="btn btn-neutral float-right" title="Menu">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -158,7 +202,7 @@
     
     
     
-      <span><a href="home/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="menu/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -178,5 +222,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-08-13 20:09:45.766165+00:00
+Build Date UTC : 2026-08-10 14:44:12.334613+00:00
 -->

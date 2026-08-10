@@ -1,12 +1,7 @@
 # WP Blocks
 ## Hero Section
 
-To add **green text** on the hero section:
-
-- Wrap the words you want in green with the CSS class `cgreen`.  
-  Example: `<span class="cgreen">Your green text</span>`
-
-![Hero section](img/green-text.png)
+![Hero section](img/yellow-text.jpeg)
 
 ---
 
